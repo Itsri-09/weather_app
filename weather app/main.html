@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="shortcut icon" href="./src/weather.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <video autoplay loop muted plays-inline class="background-clip">
+      <source src="/src/WhatsApp Video 2024-07-15 at 6.27.17 PM.mp4" type="video/mp4"></video>
+      <div class="what"><div class="card">
+        <div class="select">
+          <input type="text" spellcheck="true" placeholder="search city"/>
+  
+          <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          
+        </div>
+        <div class="err">Invalid City name</div>
+        <div class="an">Entre the City Name</div>
+        <div class="not">
+        <div class="weather">
+          <img src="src/rain.png" class="weather_icon" alt="" /></div>
+          
+          <h1 class="city">New York</h1>
+          <h2> <span class="temp">22</span> °C</h2>
+          <div class="details">
+              <div class="col">
+                  <img src="src/humidity.png" alt="">
+                  <div>
+                      <p > <span class="humidity">50</span> %</p>
+                      <p>Humidity</p>
+                  </div>
+              </div>
+              
+        
+       
+              <div class="col">
+                  <img src="src/wind.png" alt="">
+                  <div>
+                      <p ><span class="wind-speed">15</span> km/hr</p>
+                      <p>Wind Speed</p>
+                  </div>
+              </div>
+            </div>
+              
+          
+      </div>
+      </div></div>
+    
+
+    <script src="main.js"></script>
+  </body>
+</html>
